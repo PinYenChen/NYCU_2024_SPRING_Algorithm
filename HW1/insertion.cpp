@@ -115,4 +115,5 @@ int main(int argc,char** argv){
     }
     cout<<"\nTime is measured by merge sort: "<<(double)(tend-tstart)/CLOCKS_PER_SEC<<"s";
     delete[] b;
+
 }
